@@ -1,10 +1,138 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Evaluation</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Agence Immo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts pour le style des titres -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <img src="logo.png" alt="logo" />
+      <div class="header-content">
+        <!-- <img src="logo.png" alt="logo" /> -->
+        <h1><span>AGENCE</span> IMMO</h1>
+        <p>- Votre partenaire immobilier -</p>
+        <nav>
+          <a href="#">Propriétés</a>
+          <a href="#">Ventes</a>
+          <a href="#" class="button">Contactez-nous</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Section principale -->
+    <section class="objectif-section">
+      <div class="objectif-container">
+        <!-- Image -->
+        <div class="objectif-image">
+          <img src="item1.avif" alt="Maison sous les étoiles" />
+        </div>
+        <!-- Texte -->
+        <div class="objectif-texte">
+          <h2>
+            <span class="highlight"><u>Notre</u></span>
+            <strong><u>objectif, votre satisfaction</u></strong>
+          </h2>
+          <p>
+            Nous vous accompagnons dans la recherche de la propriété idéale pour
+            répondre à vos besoins.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+      <div class="service">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+          <path
+            d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-111 111-47-47c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9l64 64c9.4 9.4 24.6 9.4 33.9 0L369 209z"
+          />
+        </svg>
+        <p>Trouver votre maison de rêve</p>
+      </div>
+      <div class="service">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+          <path
+            d="M64 464H288c8.8 0 16-7.2 16-16V384h48v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V224c0-35.3 28.7-64 64-64h64v48H64c-8.8 0-16 7.2-16 16V448c0 8.8 7.2 16 16 16zM224 304H448c8.8 0 16-7.2 16-16V64c0-8.8-7.2-16-16-16H224c-8.8 0-16 7.2-16 16V288c0 8.8 7.2 16 16 16zm-64-16V64c0-35.3 28.7-64 64-64H448c35.3 0 64 28.7 64 64V288c0 35.3-28.7 64-64 64H224c-35.3 0-64-28.7-64-64z"
+          />
+        </svg>
+        <p>Large sélection de propriétés</p>
+      </div>
+    </section>
+
+    <!-- Bannière Contact -->
+    <section class="contact-banner">
+      <div class="banner-content">
+        <h2>Agence Immo, votre partenaire immobilier</h2>
+        <p>
+          Nous vous aidons à trouver la propriété de vos rêves. Contactez-nous
+          dès aujourd'hui !
+        </p>
+        <a href="#" class="button">Contactez-nous</a>
+      </div>
+    </section>
+
+    <!-- Statistiques -->
+    <section class="market-section">
+      <div class="container">
+        <h2 class="section-title">Découvrez le marché immobilier</h2>
+        <div class="stats-container">
+          <!-- Statistiques -->
+          <div class="stat">
+            <span class="stat-number">120+</span>
+            <p class="stat-label">Propriétés disponibles</p>
+          </div>
+          <div class="stat">
+            <span class="stat-number">98%</span>
+            <p class="stat-label">Clients satisfaits</p>
+          </div>
+          <div class="stat">
+            <span class="stat-number">30+</span>
+            <p class="stat-label">Années d'expérience</p>
+          </div>
+          <!-- Texte à droite -->
+          <div class="stat-text">
+            <p>
+              Notre agence est dédiée à fournir des solutions adaptées à vos
+              besoins immobiliers. Contactez-nous pour explorer les meilleures
+              options.
+            </p>
+            <a href="#" class="btn">EN SAVOIR PLUS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-contact">
+          <p>
+            <span class="footer-label">ADRESSE</span> 123 Rue de l'Immobilier<br />75001
+            Paris
+          </p>
+          <p><span class="footer-label">TÉLÉPHONE</span> +33 1 23 45 67 89</p>
+          <p><span class="footer-label">EMAIL</span> info@agenceimmo.com</p>
+        </div>
+        <div class="footer-description">
+          <img src="logo.png" alt="Logo Agence Immo" class="footer-logo" />
+          <p>
+            Agence Immo est votre partenaire de confiance pour trouver la
+            propriété de vos rêves. Notre équipe dévouée est là pour vous aider
+            à réaliser vos rêves immobiliers.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
