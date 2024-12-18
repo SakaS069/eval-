@@ -135,7 +135,7 @@ header img {
 
 /* Contact Banner */
 .contact-banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 128, 128, 0.5), rgba(0, 128, 128, 0.5)),
     url("main_image.avif") no-repeat center;
   color: #fff;
   display: grid;
